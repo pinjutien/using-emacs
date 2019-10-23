@@ -691,7 +691,7 @@
 
 
     ;; (use-package frame-cmds :ensure t)
-    ;; (load-file "/home/zamansky/Dropbox/shared/zoom-frm.el")
+    ;; (load-file "/home/pinju/Dropbox/shared/zoom-frm.el")
     ;; (define-key ctl-x-map [(control ?+)] 'zoom-in/out)
     ;; (define-key ctl-x-map [(control ?-)] 'zoom-in/out)
     ;; (define-key ctl-x-map [(control ?=)] 'zoom-in/out)
@@ -1114,7 +1114,7 @@ Eshell prompt
 (use-package cider
 :ensure t)
 
-(add-to-list 'exec-path "/home/zamansky/bin/")
+(add-to-list 'exec-path "/home/pinju/bin/")
 #+END_SRC
 * Dumb jump
 #+BEGIN_SRC emacs-lisp
@@ -1293,8 +1293,8 @@ Eshell prompt
 (define-key z-map (kbd "w") 'z/swap-windows)
 
 
-  (setq user-full-name "Mike Zamansky"
-                          user-mail-address "mz631@hunter.cuny.edu")
+  (setq user-full-name "Pin-Ju Tien"
+                          user-mail-address "pinju.tien@gmail.com")
   ;;--------------------------------------------------------------------------
 
 
